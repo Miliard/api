@@ -2,7 +2,7 @@
 header('Access-Control-Allow-Origin: *');
 header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
-$json = file_get_contents('php://input'); //resive el json de angular
+$json = file_get_contents('php://input'); // recibe el json de angular
 
 $params = json_decode($json); //Decodifica el json
 
